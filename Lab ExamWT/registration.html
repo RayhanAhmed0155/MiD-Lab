@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Registration</title>
+</head>
+<body>
+	<form action="registrationCheck.php" method="post">
+     <fieldset style="width:200px" >
+        <legend><b>Registration</b></legend>
+        <label>ID</label><br>
+        <input type="text" name="id" value=" ">
+        <br>
+        <label>Password</label><br>
+        <input type="text" name="password" value=" ">
+        <br>
+        <label>Confirm Password</label><br>
+        <input type="text" name="confirmPassword" value=" ">
+        <br>
+        <label>Name</label><br>
+        <input type="text" name="name" value=" ">
+        <br>
+        <label>Email</label><br>
+        <input type="text" name="email" value=" ">
+        <br>
+        <label>User Type</label><br>
+	       <select name= "userType">
+		   <option value=""></option>
+		   <option value="User">User</option>
+		   <option value="Admin">Admin</option>
+			  
+		   </select>
+
+
+		  <hr>
+
+        
+        <input type="submit" name="signUp" value="Sign Up">
+        <a href="login.html">Login</a>
+        <br>
+        <br>
+     </fieldset>
+     <br>
+    </form>
+
+
+</body>
+</html>
